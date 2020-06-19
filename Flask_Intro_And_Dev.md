@@ -198,5 +198,24 @@ rows = [{'name': 'Python', 'age':27},{'name': 'Python', 'age': 27}]
 ```
 Which would create a neat row to display stuff.
 
+### Template Inheritance
+
+Template Inheritance helps us in keeping features relevant and not redundant.
+
+Similarly, you have to do this:
+
+```
+{ % extends "base.html" % }
+```
+
+(This should be added in the children HTML file.)
+
+```
+{% block content %} {% endblock %}
+```
+
+(This should be added in the parent HTML file.)
+
+## Flask and Forms
 
 
